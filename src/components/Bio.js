@@ -18,6 +18,8 @@ export default ({ settings }) => (
         height: rhythm(2),
       }}
     />
-    <div dangerouslySetInnerHTML={{ __html: "Akshada's Blog" }} />
+    <div>
+        <p>I am Akshada. I love cookking. Welcome to my blog</p>
+      </div>
   </div>
 )
