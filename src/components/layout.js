@@ -32,7 +32,7 @@ export default ({ children, location }) => (
       }
     `}
     render={data => {
-      const siteTitle = data.cosmicjsSettings.metadata.site_heading
+      const siteTitle = "This is tittle"
       const homgePageHero =
         data.cosmicjsSettings.metadata.homepage_hero.local.childImageSharp.fluid
       let header
